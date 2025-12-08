@@ -19,7 +19,8 @@ const contas = [
 const notificacoes = [
     { id: 1, tipo: "geral", titulo: "Bem-vindo ao Sistema de Gestão de Água", mensagem: "Sistema de gestão de água e saneamento de Rio Grande está agora disponível para todos os cidadãos.", data: "2024-12-01" },
     { id: 2, tipo: "manutencao", titulo: "Manutenção Programada - Vila da quinta", mensagem: "Haverá manutenção preventiva na região da Quinta no dia 15/12. O abastecimento pode ser intermitente durante o período.", data: "2024-12-05" },
-    { id: 3, tipo: "alerta", titulo: "Consumo Consciente", mensagem: "Evite desperdícios! Pequenas atitudes fazem grande diferença na preservação dos recursos hídricos.", data: "2024-12-03" }
+    { id: 3, tipo: "alerta", titulo: "Consumo Consciente", mensagem: "Evite desperdícios! Pequenas atitudes fazem grande diferença na preservação dos recursos hídricos.", data: "2024-12-03" },
+    { id: 4, tipo: "alerta", titulo: "Sim", mensagem: "Agradecemos a todos pela apresentação. A partir de agr sua respiração automatica esta desligada, Kratos darksouls", data: "2024-12-03" }
 ];
 
 function verificarAutenticacao() {
