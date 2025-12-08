@@ -8,8 +8,7 @@ Protótipo front-end em HTML, CSS e JavaScript puro para demonstração do siste
 frontend-agua-riogrande/
 ├── login.html          # Página de login
 ├── dashboard.html      # Dashboard principal
-├── css/
-│   └── style.css      # Estilos CSS
+├──style.css      # Estilos CSS
 ├── js/
 │   ├── login.js       # Lógica de login
 │   └── dashboard.js   # Lógica do dashboard
