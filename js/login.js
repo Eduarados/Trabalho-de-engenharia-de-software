@@ -33,7 +33,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
         }));
         
         // Redirecionar para o dashboard
-        window.location.href = 'dashboard.html';
+        window.location.href = 'index.html';
     } else {
         // Login falhou
         errorMessage.textContent = 'CPF ou senha incorretos. Tente: Admin / Admin';
@@ -50,7 +50,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
 window.addEventListener('load', function() {
     const usuarioLogado = localStorage.getItem('usuarioLogado');
     if (usuarioLogado) {
-        window.location.href = 'dashboard.html';
+        window.location.href = 'index.html';
     }
 });
 
